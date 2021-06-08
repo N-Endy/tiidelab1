@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Header */
+
+.container .header {
+    background: url('/img/clay-banks-cEzMOp5FtV4-unsplash.jpg') no-repeat center center/cover rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 0 12rem;
+    color: white;
+}
+
+/* .container .header * {
+    width: 50%;
+} */
+
+.container .header .header-info {
+    width: 45%;
+}
+
+.container .header .header-info h1 {
+    padding-bottom: 0.75rem;
+}
+
+.container .header .header-info p {
+    line-height: 1.4;
+}
+
+.container .header form {
+    width: 35%;
+    height: auto;
+    margin-left: 5rem;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.container .header form h3 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.container .header form p {
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.container .header form input {
+    font-size: 15px;
+    padding: 0.45rem;
+    margin-bottom: 0.75rem;
+}
+
+.container .header form button {
+    font-size: 15px;
+    padding: 0.75rem;
+    background: rgb(12, 189, 12);
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.container .header form input,
+.container .header form button {
+    width: 100%;
+}
+
+/* Icons */
+.container .icons {
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container .icons .icon {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container .icons .icon i {
+    font-size: 40px;
+    background: rgb(235, 236, 234);
+    padding: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(31, 199, 199);
+}
+
+.container .icons .icon h4 {
+    font-size: 18px;
+}
+
+.container .icons .icon h4,
+.container .icons .icon p {
+    padding: 1rem;
+}
+
+/* Client */
+.container .clients {
+    background: rgb(222, 223, 220);
+    text-align: center;
+}
+
+.container .clients h3 {
+    padding: 2rem;
+    font-size: 30px;
+}
+
+
+.container .clients .client-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.container .clients .client-list > * {
+    width: 40%;
+}
+
+.container .clients .client-list .client img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.container .clients .client-list .client p {
+    font-size: 13px;
+    padding: 1rem;
+    color: rgb(61, 60, 60);
+}
+
+.container .clients .client-list .client .review {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 29;
+}
+
+.container .clients .client-list .client .star {
+    padding: 1.5rem;
+    color: gold;
+}
+
+.container .footer {
+    background: rgb(77, 74, 74);
+    padding: 2rem;
+    padding-left: 20%;
+    color: white;
+}
